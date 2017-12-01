@@ -26,17 +26,19 @@ switch (count) // начало оператора switch
 			} 
 		case 2: // если count = 2 
 			{ 
-				double MyVich(double a, double b);
+				double MyVich(double a, double b)
 				 // выполнить вычитание 
 				break; 
 			} 
 		case 3: // если count = 3 
 			{ 
+				double MyMul(double a, double b)
 				 // выполнить умножение 
 				break; 
 			} 
 		case 4: // если count = 4 
 			{ 
+				double MyDiv(double a, double b)
 				 // выполнить деление 
 				break; 
 			} 
