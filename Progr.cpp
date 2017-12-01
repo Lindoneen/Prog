@@ -7,15 +7,26 @@ using namespace std;
 
 int main() 
 { 
+	int count; // переменная для выбора в switch 
+	 double a, b; // переменные для хранения операндов 
+	 cout << "Vvedite pervoe chislo: "; 
+	 cin >> a; 
+	 cout << "Vvedite vtoroe chislo: "; 
+	 cin >> b;
+     cout << "Vibirite deistvie: 1-clojenie; 2-vichitanie; 3-ymnojenie; 4-delenie: "; 
+	 cin >> count;
 switch (count) // начало оператора switch 
 	{ 
 		case 1: // если count = 1 
 			{ 
+				
+				double MySum(double a, double b) 
 			 // выполнить сложение 
 			break;
 			} 
 		case 2: // если count = 2 
 			{ 
+				double MyVich(double a, double b);
 				 // выполнить вычитание 
 				break; 
 			} 
